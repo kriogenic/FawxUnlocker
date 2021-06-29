@@ -10,7 +10,7 @@ function loadFile(){
     var arrayBuffer = oReq.response; // Note: not oReq.responseText
     if (arrayBuffer) {
       var byteArray = new Uint8Array(arrayBuffer);
-      for (var i = 0; i < byteArray.byteLength; i++) {
+      for (var i = 12; i < byteArray.byteLength; i++) {
         console.log("Byte at: " + i + " is " + byteArray[i])
         bytestring += byteArray[i].toString(16).toUpperCase();
       }
