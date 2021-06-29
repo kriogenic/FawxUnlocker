@@ -12,5 +12,5 @@ It takes your steam ID and applies the CRC32 checksum to the already existing fi
 You can not select which outfits to unlock, this will unlock them all (if some outfits are missing, tool may require update)
 
 <h2>Credits</h2>
-VolatileAeon - Significant other and amazing person, always encourages me to make things like this
+VolatileAeon - Significant other and amazing person, always encourages me to make things like this</br>
 Durf - He figured out the CRC32 calculation and documented his findings allowing me to make this tool.
