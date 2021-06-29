@@ -1,28 +1,3 @@
-
-  <style>
-form * {
-  display: block;
-  margin: 10px;
-}
-</style>
-
-<form onsubmit="download(this['name'].value, this['text'].value)">
-  <input type="text" name="name" value="test.txt">
-  <textarea name="text"></textarea>
-  <input type="submit" value="Download">
-</form>
-
-<script>
-  function download(filename, text) {
-  var element = document.createElement('a');
-  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-  element.setAttribute('download', filename);
-
-  element.style.display = 'none';
-  document.body.appendChild(element);
-
-  element.click();
-
-  document.body.removeChild(element);
-}
-</script>
+Welcome to the landing page for the Fawx Garment unlocker for scrap mechanic, click the link below to head to the unlocker.
+Please make sure to read the instructions carefully and BACKUP your unlock file.
+<a href="./unlocker.html">You can find the unlocker by clicking here</a>
