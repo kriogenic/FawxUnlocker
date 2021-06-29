@@ -8,7 +8,7 @@ It does this by using an already uploaded fully unlocked unlock file.</br>
 It takes your steam ID and applies the CRC32 checksum to the already existing file and makes it available to download.</br>
 <b>So I repeat, this downloads a fully unlocked outfile file Vanilla + Fawx Garments</b>
 
-<h2?What this tool doesn't do</h2>
+<h2>What this tool doesn't do</h2>
 You can not select which outfits to unlock, this will unlock them all (if some outfits are missing, tool may require update)
 
 <h2>Credits</h2>
