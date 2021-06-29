@@ -1,6 +1,7 @@
 
 
 function loadFile(){
+  var bytestring = ""
   var oReq = new XMLHttpRequest();
   oReq.open("GET", "./files/unlock", true);
   oReq.responseType = "arraybuffer";
@@ -11,8 +12,9 @@ function loadFile(){
       var byteArray = new Uint8Array(arrayBuffer);
       for (var i = 0; i < byteArray.byteLength; i++) {
         console.log("Byte at: " + i + " is " + byteArray[i])
-        // do something with each byte in the array
+        bytestring += byteArray[i].toString(16).toUpperCase();
       }
+      console.log(bytestring);
     }
   };
   oReq.send(null);
