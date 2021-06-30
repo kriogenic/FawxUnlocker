@@ -6,7 +6,7 @@
 <li>Copy the <b>STEAMID</b> part of the folder name and paste it in the STEAM ID box below</li>
 <li>Press the download patched file button and download the new unlock file</li>
 <li>Navigate inside your <b>User_STEAMID</b> folder and make a <b><i>BACKUP</i></b> of you unlock file</li>
-<li>Move your newly downloaded unlock file to the <b>User_STEAMID</b> folder and replace the old one</li>
+<li>Move the new downloaded unlock file to the <b>User_STEAMID</b> folder and replace the old one</li>
 <li>Open Scrap Mechanic and enter the game, you should  have all garments unlocked!</li>
 </ol> 
 <label>Input your Steam ID:</label><input type="text" id="steamid" width="100"/>
