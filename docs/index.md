@@ -15,7 +15,7 @@
 This tool recalculates the CRC32 checksum that Scrap Mechanic uses in the outfit unlock file.<br>
 It does this by using an already uploaded fully unlocked unlock file.<br>
 It takes your steam ID and applies the CRC32 checksum to the already existing file and makes it available to download.<br>
-<b>So I repeat, this downloads a fully unlocked outfile file Vanilla + Fawx Garments</b>
+<b>So I repeat, this downloads a fully unlocked outfile file Vanilla + Fawx Garments with a recalculated CRC32 so that it will load in your game</b>
 
 <h3>What this tool doesn't do</h3>
 You can not select which outfits to unlock, this will unlock them all (if some outfits are missing, tool may require update)
