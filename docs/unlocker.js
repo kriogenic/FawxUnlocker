@@ -49,11 +49,11 @@ function loadFile(){
         var bytes = new Uint8Array(byteArray); // pass your byte response to this constructor
 
 
-var blob=new Blob([bytes], {type: "application/pdf"});// change resultByte to bytes
+var blob=new Blob([bytes], {type: "application/octet-stream"});// change resultByte to bytes
 
 var link=document.createElement('a');
 link.href=window.URL.createObjectURL(blob);
-link.download="myFileName";
+link.download="unlock";
 link.click();
   
     }
