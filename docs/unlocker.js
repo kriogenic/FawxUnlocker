@@ -42,11 +42,12 @@ function loadFile(){
   console.log("The new checksum is: " + newchecksum);
   var newcheckbyte = hexToBytes(newchecksum);
   
-  bytearray[4] = newcheckbyte[0];
-  bytearray[5] = newcheckbyte[1];
-  bytearray[6] = newcheckbyte[2];
-  bytearray[7] = newcheckbyte[3];    
-        var bytes = new Uint8Array(bytearray); // pass your byte response to this constructor
+ byteArray[4] = newcheckbyte[0];
+  byteArray[5] = newcheckbyte[1];
+  byteArray[6] = newcheckbyte[2];
+  byteArray[7] = newcheckbyte[3];    
+        var bytes = new Uint8Array(byteArray); // pass your byte response to this constructor
+
 
 var blob=new Blob([bytes], {type: "application/pdf"});// change resultByte to bytes
 
