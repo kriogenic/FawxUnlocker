@@ -14,9 +14,7 @@ function loadFile(){
 	var val = byteArray[i].toString(16).toUpperCase();
 	if (val.length % 2) { val = '0' + val; }
         bytestring += val;
-      }
-      console.log(bytestring);
-      
+      }     
       
       var steam = document.getElementById("steamid").value;
 	   
@@ -35,12 +33,11 @@ function loadFile(){
   console.log("ID as number: " + id)
   console.log("ID as hexstring: " + ashexString);
   console.log("ID as reversed hexstring: " + secstr);
-  console.log("------------");
   var newstring = secstr + bytestring;
-  console.log("AS A STRING: " + newstring);
   var a = hexToBytes(newstring);
   var newchecksum = crc32(a).toString(16).toUpperCase();
   console.log("The new checksum is: " + newchecksum);
+  console.log("------------");
   var newcheckbyte = hexToBytes(newchecksum);
   
  byteArray[4] = newcheckbyte[0];
