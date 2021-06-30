@@ -11,7 +11,9 @@ function loadFile(){
     if (arrayBuffer) {
       var byteArray = new Uint8Array(arrayBuffer);
       for (var i = 12; i < byteArray.byteLength; i++) {
-        bytestring += byteArray[i].toString(16).toUpperCase();
+	var val = byteArray[i].toString(16).toUpperCase();
+	if (val.length % 2) { val = '0' + val; }
+        bytestring += val;
       }
       console.log(bytestring);
       
