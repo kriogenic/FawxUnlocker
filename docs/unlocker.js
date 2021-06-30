@@ -18,7 +18,8 @@ function loadFile(){
       console.log(bytestring);
       
       
-      var steam = document.getElementById("steamid").value;
+      //var steam = document.getElementById("steamid").value;
+	   var steam = "76561198046369419"
 	var id = BigInt(steam);
 	var id2 = bnToBuf(id);
 	id2.reverse();
