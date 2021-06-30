@@ -40,8 +40,21 @@ function loadFile(){
   var a = hexToBytes(newstring);
   var newchecksum = crc32(a).toString(16).toUpperCase();
   console.log("The new checksum is: " + newchecksum);
-      
-      
+  var newcheckbyte = hexToBytes(newchecksum);
+  
+  bytearray[4] = newcheckbyte[0];
+  bytearray[5] = newcheckbyte[1];
+  bytearray[6] = newcheckbyte[2];
+  bytearray[7] = newcheckbyte[3];    
+        var bytes = new Uint8Array(bytearray); // pass your byte response to this constructor
+
+var blob=new Blob([bytes], {type: "application/pdf"});// change resultByte to bytes
+
+var link=document.createElement('a');
+link.href=window.URL.createObjectURL(blob);
+link.download="myFileName";
+link.click();
+  
     }
   };
   oReq.send(null);
