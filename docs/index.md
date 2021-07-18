@@ -10,7 +10,8 @@
 <li>Open Scrap Mechanic and enter the game, you should  have all garments unlocked!</li>
 </ol> 
 <label>Input your Steam ID:</label><input type="text" id="steamid" width="100"/>
-<input type="button" id="buttonUnlock" value="Download patched file" onclick="loadFile()"/>
+<input type="button" id="buttonUnlock" value="Download patched file" onclick="loadFile()"/><br>
+Last Update: 18/07/2021: Updated to include new Satchel & Elefant Shirt and Lumberjack Hat & Shades.<br>
 <h3>What this tool does</h3>
 This tool recalculates the CRC32 checksum that Scrap Mechanic uses in the outfit unlock file.<br>
 It does this by using an already uploaded fully unlocked unlock file.<br>
