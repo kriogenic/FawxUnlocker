@@ -1,7 +1,7 @@
 <script src="./unlocker.js"></script>
 <h2>Usage Instructions:</h2>
 <ol>
-<li>Navigate to your <b>%appdata%\Axolot Games\Scrap Mechanic\User</b> folder</li>
+<li>Navigate to your <b>%appdata%\Roaming\Axolot Games\Scrap Mechanic\User</b> folder</li>
 <li>Find your save folder named <b>User_STEAMID</b></li>
 <li>Copy the <b>STEAMID</b> part of the folder name and paste it in the STEAM ID box below</li>
 <li>Press the download patched file button and download the new unlock file</li>
@@ -16,7 +16,7 @@ Last Update: 18/07/2021: Updated to include new Satchel & Elefant Shirt and Lumb
 This tool recalculates the CRC32 checksum that Scrap Mechanic uses in the outfit unlock file.<br>
 It does this by using an already uploaded fully unlocked unlock file.<br>
 It takes your steam ID and applies the CRC32 checksum to the already existing file and makes it available to download.<br>
-<b>So I repeat, this downloads a fully unlocked outfile file Vanilla + Fawx Garments with a recalculated CRC32 so that it will load in your game</b>
+<b>So I repeat, this downloads a fully unlocked outfit file (Vanilla + Fawx Garments) with a recalculated CRC32 so that it will load in your game</b>
 
 <h3>What this tool doesn't do</h3>
 You can not select which outfits to unlock, this will unlock them all (if some outfits are missing, tool may require update)
